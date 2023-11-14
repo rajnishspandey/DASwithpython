@@ -1,3 +1,7 @@
+"""
+we have to make sure the list is sorted when we are using binary search
+"""
+
 def binary_search(list, target):
     first = 0
     last = len(list)-1 #to find the last value index
